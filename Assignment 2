@@ -1,0 +1,581 @@
+{
+	"boxes" : [ 		{
+			"box" : 			{
+				"maxclass" : "bpatcher",
+				"annotation" : "## Pixilate a video ##",
+				"varname" : "pixl8r",
+				"prototypename" : "pixl",
+				"viewvisibility" : 1,
+				"offset" : [ 0.0, 0.0 ],
+				"lockeddragscroll" : 0,
+				"clickthrough" : 0,
+				"enablehscroll" : 0,
+				"enablevscroll" : 0,
+				"bgmode" : 1,
+				"border" : 0,
+				"numinlets" : 3,
+				"name" : "vz.pixl8r.maxpat",
+				"id" : "obj-26",
+				"numoutlets" : 1,
+				"outlettype" : [ "jit_gl_texture" ],
+				"patching_rect" : [ 115.0, 485.00000786781311, 128.0, 130.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "bpatcher",
+				"annotation" : "## View or monitor a video input ##",
+				"varname" : "viewr[3]",
+				"prototypename" : "pixl",
+				"viewvisibility" : 1,
+				"offset" : [ 0.0, 0.0 ],
+				"lockeddragscroll" : 0,
+				"clickthrough" : 0,
+				"enablehscroll" : 0,
+				"enablevscroll" : 0,
+				"bgmode" : 1,
+				"border" : 0,
+				"numinlets" : 1,
+				"name" : "vz.viewr.maxpat",
+				"id" : "obj-25",
+				"numoutlets" : 0,
+				"patching_rect" : [ 104.0, 655.0, 230.0, 208.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "bpatcher",
+				"annotation" : "## A chaotic VIZZIE data generator ##",
+				"varname" : "attractr[2]",
+				"prototypename" : "pixl",
+				"viewvisibility" : 1,
+				"offset" : [ 0.0, 0.0 ],
+				"lockeddragscroll" : 0,
+				"clickthrough" : 0,
+				"enablehscroll" : 0,
+				"enablevscroll" : 0,
+				"bgmode" : 1,
+				"border" : 0,
+				"numinlets" : 2,
+				"name" : "vz.attractr.maxpat",
+				"id" : "obj-18",
+				"numoutlets" : 6,
+				"outlettype" : [ "", "", "", "", "", "" ],
+				"patching_rect" : [ 950.666666269302368, 291.0, 206.0, 186.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "bpatcher",
+				"annotation" : "## Four-input video mixer ##",
+				"varname" : "4mixr",
+				"prototypename" : "pixl",
+				"viewvisibility" : 1,
+				"offset" : [ 0.0, 0.0 ],
+				"lockeddragscroll" : 0,
+				"clickthrough" : 0,
+				"enablehscroll" : 0,
+				"enablevscroll" : 0,
+				"bgmode" : 1,
+				"border" : 0,
+				"numinlets" : 8,
+				"name" : "vz.4mixr.maxpat",
+				"id" : "obj-21",
+				"numoutlets" : 1,
+				"outlettype" : [ "jit_gl_texture" ],
+				"patching_rect" : [ 781.0, 530.0, 228.0, 130.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "bpatcher",
+				"annotation" : "## A chaotic VIZZIE data generator ##",
+				"varname" : "attractr[1]",
+				"prototypename" : "pixl",
+				"viewvisibility" : 1,
+				"offset" : [ 0.0, 0.0 ],
+				"lockeddragscroll" : 0,
+				"clickthrough" : 0,
+				"enablehscroll" : 0,
+				"enablevscroll" : 0,
+				"bgmode" : 1,
+				"border" : 0,
+				"numinlets" : 2,
+				"name" : "vz.attractr.maxpat",
+				"id" : "obj-12",
+				"numoutlets" : 6,
+				"outlettype" : [ "", "", "", "", "", "" ],
+				"patching_rect" : [ 388.666666666666629, 272.0, 206.0, 186.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "bpatcher",
+				"annotation" : "## Scale/fold/wrap R, G, and B components ##",
+				"varname" : "mutil8r",
+				"viewvisibility" : 1,
+				"offset" : [ 0.0, 0.0 ],
+				"lockeddragscroll" : 0,
+				"clickthrough" : 0,
+				"enablehscroll" : 0,
+				"enablevscroll" : 0,
+				"bgmode" : 0,
+				"border" : 0,
+				"numinlets" : 10,
+				"name" : "vz.mutil8r.maxpat",
+				"id" : "obj-11",
+				"numoutlets" : 1,
+				"outlettype" : [ "jit_gl_texture" ],
+				"patching_rect" : [ 343.0, 495.00000786781311, 368.0, 130.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "bpatcher",
+				"annotation" : "## Rotate/offset a video ##",
+				"varname" : "rotatr",
+				"prototypename" : "pixl",
+				"viewvisibility" : 1,
+				"offset" : [ 0.0, 0.0 ],
+				"lockeddragscroll" : 0,
+				"clickthrough" : 0,
+				"enablehscroll" : 0,
+				"enablevscroll" : 0,
+				"bgmode" : 1,
+				"border" : 0,
+				"numinlets" : 5,
+				"name" : "vz.rotatr.maxpat",
+				"id" : "obj-7",
+				"numoutlets" : 1,
+				"outlettype" : [ "jit_gl_texture" ],
+				"patching_rect" : [ 689.0, 343.0, 248.0, 130.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "bpatcher",
+				"annotation" : "## View or monitor a video input ##",
+				"varname" : "viewr[1]",
+				"prototypename" : "pixl",
+				"viewvisibility" : 1,
+				"offset" : [ 0.0, 0.0 ],
+				"lockeddragscroll" : 0,
+				"clickthrough" : 0,
+				"enablehscroll" : 0,
+				"enablevscroll" : 0,
+				"bgmode" : 1,
+				"border" : 0,
+				"numinlets" : 1,
+				"name" : "vz.viewr.maxpat",
+				"id" : "obj-3",
+				"numoutlets" : 0,
+				"patching_rect" : [ 620.0, 693.0, 230.0, 208.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "bpatcher",
+				"varname" : "vz.ranger",
+				"prototypename" : "pixl",
+				"viewvisibility" : 1,
+				"offset" : [ 0.0, 0.0 ],
+				"lockeddragscroll" : 0,
+				"clickthrough" : 0,
+				"enablehscroll" : 0,
+				"enablevscroll" : 0,
+				"bgmode" : 1,
+				"border" : 0,
+				"numinlets" : 3,
+				"name" : "vz.rangr.maxpat",
+				"id" : "obj-17",
+				"numoutlets" : 1,
+				"outlettype" : [ "" ],
+				"patching_rect" : [ 1174.666666269302368, 329.0, 190.0, 110.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "bpatcher",
+				"annotation" : "## VIZZIE video projector interface ##",
+				"varname" : "projectr",
+				"prototypename" : "pixl",
+				"viewvisibility" : 1,
+				"offset" : [ 0.0, 0.0 ],
+				"lockeddragscroll" : 0,
+				"clickthrough" : 0,
+				"enablehscroll" : 0,
+				"enablevscroll" : 0,
+				"bgmode" : 1,
+				"border" : 0,
+				"numinlets" : 3,
+				"name" : "vz.projectr.maxpat",
+				"id" : "obj-19",
+				"numoutlets" : 1,
+				"outlettype" : [ "" ],
+				"patching_rect" : [ 108.5, 284.0, 168.0, 108.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "bpatcher",
+				"annotation" : "## A chaotic VIZZIE data generator ##",
+				"varname" : "attractr",
+				"prototypename" : "pixl",
+				"viewvisibility" : 1,
+				"offset" : [ 0.0, 0.0 ],
+				"lockeddragscroll" : 0,
+				"clickthrough" : 0,
+				"enablehscroll" : 0,
+				"enablevscroll" : 0,
+				"bgmode" : 1,
+				"border" : 0,
+				"numinlets" : 1,
+				"name" : "vz.attractr.maxpat",
+				"id" : "obj-20",
+				"numoutlets" : 6,
+				"outlettype" : [ "", "", "", "", "", "" ],
+				"patching_rect" : [ 1166.666666269302368, 93.00000011920929, 206.0, 186.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "bpatcher",
+				"annotation" : "## View or monitor a video input ##",
+				"varname" : "viewr[2]",
+				"prototypename" : "pixl",
+				"viewvisibility" : 1,
+				"offset" : [ 0.0, 0.0 ],
+				"lockeddragscroll" : 0,
+				"clickthrough" : 0,
+				"enablehscroll" : 0,
+				"enablevscroll" : 0,
+				"bgmode" : 1,
+				"border" : 0,
+				"numinlets" : 1,
+				"name" : "vz.viewr.maxpat",
+				"id" : "obj-14",
+				"numoutlets" : 0,
+				"patching_rect" : [ 1174.666666269302368, 630.0, 230.0, 208.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "bpatcher",
+				"annotation" : "## Easing function pattern generator ##",
+				"varname" : "croppr",
+				"prototypename" : "pixl",
+				"viewvisibility" : 1,
+				"offset" : [ 0.0, 0.0 ],
+				"lockeddragscroll" : 0,
+				"clickthrough" : 0,
+				"enablehscroll" : 0,
+				"enablevscroll" : 0,
+				"bgmode" : 1,
+				"border" : 0,
+				"numinlets" : 10,
+				"name" : "vz.1easemappr.maxpat",
+				"id" : "obj-22",
+				"numoutlets" : 1,
+				"outlettype" : [ "" ],
+				"patching_rect" : [ 1174.666666269302368, 453.00000786781311, 244.0, 162.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "bpatcher",
+				"annotation" : "## The VIZZIE audio/video player/looper ##",
+				"varname" : "playr[1]",
+				"prototypename" : "pixl",
+				"viewvisibility" : 1,
+				"offset" : [ 0.0, 0.0 ],
+				"lockeddragscroll" : 0,
+				"clickthrough" : 0,
+				"enablehscroll" : 0,
+				"enablevscroll" : 0,
+				"bgmode" : 1,
+				"border" : 0,
+				"numinlets" : 5,
+				"name" : "vz.avplayr.maxpat",
+				"id" : "obj-1",
+				"numoutlets" : 4,
+				"outlettype" : [ "", "signal", "signal", "" ],
+				"patching_rect" : [ 730.0, 90.0, 348.0, 158.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "bpatcher",
+				"annotation" : "## The VIZZIE audio/video player/looper ##",
+				"varname" : "playr",
+				"prototypename" : "pixl",
+				"viewvisibility" : 1,
+				"offset" : [ 0.0, 0.0 ],
+				"lockeddragscroll" : 0,
+				"clickthrough" : 0,
+				"enablehscroll" : 0,
+				"enablevscroll" : 0,
+				"bgmode" : 1,
+				"border" : 0,
+				"numinlets" : 5,
+				"name" : "vz.avplayr.maxpat",
+				"id" : "obj-6",
+				"numoutlets" : 4,
+				"outlettype" : [ "", "signal", "signal", "" ],
+				"patching_rect" : [ 343.0, 90.0, 348.0, 158.0 ]
+			}
+
+		}
+, 		{
+			"box" : 			{
+				"maxclass" : "bpatcher",
+				"annotation" : "## A starting point for VIZZIE preset patches ##",
+				"varname" : "vz.rangr",
+				"prototypename" : "pixl",
+				"viewvisibility" : 1,
+				"offset" : [ 0.0, 0.0 ],
+				"lockeddragscroll" : 0,
+				"clickthrough" : 0,
+				"enablehscroll" : 0,
+				"enablevscroll" : 0,
+				"bgmode" : 1,
+				"border" : 0,
+				"numinlets" : 2,
+				"name" : "vz.startr.maxpat",
+				"id" : "obj-5",
+				"numoutlets" : 0,
+				"patching_rect" : [ 104.0, 90.0, 177.0, 146.0 ]
+			}
+
+		}
+ ],
+	"lines" : [ 		{
+			"patchline" : 			{
+				"source" : [ "obj-26", 0 ],
+				"destination" : [ "obj-11", 0 ],
+				"order" : 0
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-6", 0 ],
+				"destination" : [ "obj-26", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-26", 0 ],
+				"destination" : [ "obj-25", 0 ],
+				"order" : 1
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-11", 0 ],
+				"destination" : [ "obj-21", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-18", 3 ],
+				"destination" : [ "obj-21", 6 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-18", 1 ],
+				"destination" : [ "obj-21", 5 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-18", 0 ],
+				"destination" : [ "obj-21", 4 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-21", 0 ],
+				"destination" : [ "obj-3", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-7", 0 ],
+				"destination" : [ "obj-21", 1 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-22", 0 ],
+				"destination" : [ "obj-21", 2 ],
+				"order" : 0
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-12", 5 ],
+				"destination" : [ "obj-11", 6 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-12", 4 ],
+				"destination" : [ "obj-11", 5 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-12", 3 ],
+				"destination" : [ "obj-11", 4 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-12", 2 ],
+				"destination" : [ "obj-11", 3 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-12", 1 ],
+				"destination" : [ "obj-11", 2 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-12", 0 ],
+				"destination" : [ "obj-11", 1 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-20", 3 ],
+				"destination" : [ "obj-7", 3 ],
+				"order" : 1
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-20", 2 ],
+				"destination" : [ "obj-7", 2 ],
+				"order" : 1
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-20", 1 ],
+				"destination" : [ "obj-7", 1 ],
+				"order" : 1
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-1", 0 ],
+				"destination" : [ "obj-7", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-17", 0 ],
+				"destination" : [ "obj-22", 2 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-20", 0 ],
+				"destination" : [ "obj-17", 0 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-20", 5 ],
+				"destination" : [ "obj-22", 9 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-20", 4 ],
+				"destination" : [ "obj-22", 8 ]
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-20", 3 ],
+				"destination" : [ "obj-22", 7 ],
+				"order" : 0
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-20", 2 ],
+				"destination" : [ "obj-22", 6 ],
+				"order" : 0
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-20", 1 ],
+				"destination" : [ "obj-22", 4 ],
+				"order" : 0
+			}
+
+		}
+, 		{
+			"patchline" : 			{
+				"source" : [ "obj-22", 0 ],
+				"destination" : [ "obj-14", 0 ],
+				"order" : 1
+			}
+
+		}
+ ],
+	"appversion" : 	{
+		"major" : 8,
+		"minor" : 1,
+		"revision" : 5,
+		"architecture" : "x64",
+		"modernui" : 1
+	}
+,
+	"classnamespace" : "box"
+}
